@@ -1,3 +1,9 @@
+# Waxel World
+## Main Screens
+![application-flow-diagram](./screenshots/Screenshot_1.png)
+![application-flow-diagram](./screenshots/Screenshot_2.png)
+![application-flow-diagram](./screenshots/Screenshot_3.png)
+![application-flow-diagram](./screenshots/Screenshot_4.png)
 ## On Process
 --meantime
 no settlement effect: smartcontract-l
