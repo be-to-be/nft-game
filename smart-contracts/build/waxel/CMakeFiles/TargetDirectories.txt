@@ -1,0 +1,3 @@
+/wax/Contractz/waxel/build/waxel/CMakeFiles/rebuild_cache.dir
+/wax/Contractz/waxel/build/waxel/CMakeFiles/waxel.dir
+/wax/Contractz/waxel/build/waxel/CMakeFiles/edit_cache.dir

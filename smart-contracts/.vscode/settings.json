@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp",
+        "initializer_list": "cpp",
+        "string": "cpp",
+        "type_traits": "cpp",
+        "xtr1common": "cpp"
+    }
+}

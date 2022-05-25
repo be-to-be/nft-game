@@ -1,0 +1,134 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/eosio.cdt/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/local/eosio.cdt/bin/wasm-ld: error: cannot open /tmp/CMakeCCompilerId.c.o: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/eosio.cdt/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: main(int, char**)
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_platform
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_compiler
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_language_dialect_default
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_arch
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_240d7/fast"
+make[3]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[3]: Warning: File 'Makefile' has modification time 4 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_240d7.dir/build.make CMakeFiles/cmTC_240d7.dir/build
+make[4]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[4]: Warning: File 'CMakeFiles/cmTC_240d7.dir/flags.make' has modification time 4 s in the future
+Building C object CMakeFiles/cmTC_240d7.dir/CMakeCCompilerABI.c.obj
+/usr/local/eosio.cdt/bin/eosio-cc    -o CMakeFiles/cmTC_240d7.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_240d7.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_240d7.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld  -v CMakeFiles/cmTC_240d7.dir/CMakeCCompilerABI.c.obj -o cmTC_240d7.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/local/eosio.cdt/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_240d7.dir/build.make:97: recipe for target 'cmTC_240d7.wasm' failed
+make[4]: *** [cmTC_240d7.wasm] Error 1
+make[4]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_240d7/fast' failed
+make[3]: *** [cmTC_240d7/fast] Error 2
+make[3]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35137/fast"
+make[3]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[3]: Warning: File 'Makefile' has modification time 4 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_35137.dir/build.make CMakeFiles/cmTC_35137.dir/build
+make[4]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[4]: Warning: File 'CMakeFiles/cmTC_35137.dir/flags.make' has modification time 4 s in the future
+Building C object CMakeFiles/cmTC_35137.dir/feature_tests.c.obj
+/usr/local/eosio.cdt/bin/eosio-cc   -std=c11 -o CMakeFiles/cmTC_35137.dir/feature_tests.c.obj   -c /wax/Contractz/waxel/build/waxel/CMakeFiles/feature_tests.c
+eosio-cc: Unknown command line argument '-std=c11'.  Try: '/usr/local/eosio.cdt/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w=c11'?
+CMakeFiles/cmTC_35137.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_35137.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_35137.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_35137/fast' failed
+make[3]: *** [cmTC_35137/fast] Error 2
+make[3]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7550/fast"
+make[3]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[3]: Warning: File 'Makefile' has modification time 4 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_e7550.dir/build.make CMakeFiles/cmTC_e7550.dir/build
+make[4]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[4]: Warning: File 'CMakeFiles/cmTC_e7550.dir/flags.make' has modification time 4 s in the future
+Building CXX object CMakeFiles/cmTC_e7550.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/eosio.cdt/bin/eosio-cpp     -o CMakeFiles/cmTC_e7550.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e7550.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7550.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld  -v CMakeFiles/cmTC_e7550.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_e7550.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/local/eosio.cdt/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_e7550.dir/build.make:97: recipe for target 'cmTC_e7550.wasm' failed
+make[4]: *** [cmTC_e7550.wasm] Error 1
+make[4]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e7550/fast' failed
+make[3]: *** [cmTC_e7550/fast] Error 2
+make[3]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a383/fast"
+make[3]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[3]: Warning: File 'Makefile' has modification time 4 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_9a383.dir/build.make CMakeFiles/cmTC_9a383.dir/build
+make[4]: Entering directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+make[4]: Warning: File 'CMakeFiles/cmTC_9a383.dir/flags.make' has modification time 4 s in the future
+Building CXX object CMakeFiles/cmTC_9a383.dir/feature_tests.cxx.obj
+/usr/local/eosio.cdt/bin/eosio-cpp    -std=c++1z -o CMakeFiles/cmTC_9a383.dir/feature_tests.cxx.obj -c /wax/Contractz/waxel/build/waxel/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9a383.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a383.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld   CMakeFiles/cmTC_9a383.dir/feature_tests.cxx.obj -o cmTC_9a383.wasm 
+/usr/local/eosio.cdt/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_9a383.dir/build.make:97: recipe for target 'cmTC_9a383.wasm' failed
+make[4]: *** [cmTC_9a383.wasm] Error 255
+make[4]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a383/fast' failed
+make[3]: *** [cmTC_9a383/fast] Error 2
+make[3]: Leaving directory '/wax/Contractz/waxel/build/waxel/CMakeFiles/CMakeTmp'
+
+
+

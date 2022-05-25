@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/old/LoginScene.unity
+    guid: dbd0a1134247fd547a1dc95a0e34bca2
+  - enabled: 0
+    path: Assets/Scenes/old/MenuScene.unity
+    guid: cc607a6d2f2640f418d83d076c2853ac
+  - enabled: 0
+    path: Assets/Scenes/old/CitizensScene.unity
+    guid: f173856ce7dfa9e43ac8deab49e662ee
+  - enabled: 0
+    path: Assets/Scenes/old/ProfessionScene.unity
+    guid: 79c3bf0847bb120499ce777a506c03ab
+  - enabled: 0
+    path: Assets/Scenes/old/MaterialsScene.unity
+    guid: 3f3e65beefe8e7640bbc81b425412ac2
+  - enabled: 0
+    path: Assets/Scenes/old/ShopScene.unity
+    guid: 516141df42784b346a1a8d577714f800
+  - enabled: 0
+    path: Assets/Scenes/old/RefinedMaterialScene.unity
+    guid: 867b412e839348f46bbd2c6b18b60bdb
+  - enabled: 0
+    path: Assets/Scenes/old/NinjaScene.unity
+    guid: f7276fe78b3c9da49b11b207bcc82ec5
+  - enabled: 0
+    path: Assets/Scenes/old/WorkshopScene.unity
+    guid: 4242e198acfe25142a88292ac4a913b3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/Mockup/StartScene.unity
+    guid: c7da79c77bc62da4ebf1eff13ab95fb0
+  - enabled: 0
+    path: Assets/Scenes/Mockup/MapScene.unity
+    guid: ef5e4bc4c22ee734683655d7547a7777
+  - enabled: 0
+    path: Assets/Scenes/Mockup/TownHallScene.unity
+    guid: 33c66730c559e54459c88269015c88e4
+  - enabled: 0
+    path: Assets/Scenes/Mockup/CampScene.unity
+    guid: 64e78835e1cbe6a4b83cd0cc44263f3d
+  - enabled: 0
+    path: Assets/Scenes/Mockup/WorkshopScene.unity
+    guid: 2a0d2c151892b584a813c439fe25a069
+  - enabled: 0
+    path: Assets/Scenes/Mockup/WarehouseScene.unity
+    guid: 42f2378cb11bc3443af71c666cc4fc27
+  - enabled: 0
+    path: Assets/Scenes/Mockup/_TestScene.unity
+    guid: 42195ca9749e0404185a27d27f553547
+  - enabled: 1
+    path: Assets/Scenes/new/StartScene.unity
+    guid: 30ccaaa385ac5434c9990929cc621376
+  - enabled: 1
+    path: Assets/Scenes/new/MapScene.unity
+    guid: 9ab205c8970cd134d8c4203036dae7b2
+  - enabled: 1
+    path: Assets/Scenes/new/TownHallScene.unity
+    guid: 430dbff8459533946aede65160b9eb58
+  - enabled: 1
+    path: Assets/Scenes/new/WorkshopScene.unity
+    guid: 3d52a746189933b4e93170892de8f757
+  - enabled: 1
+    path: Assets/Scenes/new/WarehouseScene.unity
+    guid: 2413d54fb463067428fbd2410255e2e4
+  - enabled: 1
+    path: Assets/Scenes/new/SchoolScene.unity
+    guid: 2afc2fa02bdcbcc4a8c22fdb31e8c498
+  - enabled: 1
+    path: Assets/Scenes/new/CampScene.unity
+    guid: 1bb4d634310280c48baeaf7f22edc330
+  m_configObjects: {}

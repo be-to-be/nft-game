@@ -1,0 +1,808 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "burnrng",
+            "base": "",
+            "fields": [
+                {
+                    "name": "assoc_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "max_value",
+                    "type": "uint64"
+                },
+                {
+                    "name": "rand1",
+                    "type": "uint32"
+                },
+                {
+                    "name": "rand2",
+                    "type": "uint32"
+                },
+                {
+                    "name": "templateID",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "config_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "race_chance_values",
+                    "type": "pair_string_float32[]"
+                },
+                {
+                    "name": "race_delay_values",
+                    "type": "pair_string_float32[]"
+                },
+                {
+                    "name": "rawmat_chances",
+                    "type": "pair_string_float32[]"
+                },
+                {
+                    "name": "rawmat_rarities",
+                    "type": "pair_string_vecstring[]"
+                },
+                {
+                    "name": "rawmat_refined",
+                    "type": "pair_string_string[]"
+                },
+                {
+                    "name": "profession_mats",
+                    "type": "pair_string_vecstring[]"
+                },
+                {
+                    "name": "item_combo",
+                    "type": "pair_int_vecasset[]"
+                },
+                {
+                    "name": "template_ids",
+                    "type": "pair_string_uint64[]"
+                },
+                {
+                    "name": "profession_combo",
+                    "type": "profession_blend[]"
+                }
+            ]
+        },
+        {
+            "name": "craftitem",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "professID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "equipitems",
+            "base": "",
+            "fields": [
+                {
+                    "name": "profession_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "item_ids",
+                    "type": "uint64[]"
+                }
+            ]
+        },
+        {
+            "name": "fillmat",
+            "base": "",
+            "fields": [
+                {
+                    "name": "owner",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "findmat",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "assetID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "items_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "profession",
+                    "type": "uint64"
+                },
+                {
+                    "name": "function",
+                    "type": "pair_string_float32"
+                },
+                {
+                    "name": "equipped",
+                    "type": "bool"
+                },
+                {
+                    "name": "last_material_search",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "uses_left",
+                    "type": "uint64"
+                },
+                {
+                    "name": "status",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "logmine",
+            "base": "",
+            "fields": [
+                {
+                    "name": "assoc_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "max_value",
+                    "type": "uint64"
+                },
+                {
+                    "name": "rand1",
+                    "type": "uint32"
+                },
+                {
+                    "name": "rand2",
+                    "type": "uint32"
+                }
+            ]
+        },
+        {
+            "name": "logsearch",
+            "base": "",
+            "fields": [
+                {
+                    "name": "assoc_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "max_value",
+                    "type": "uint64"
+                },
+                {
+                    "name": "final_value",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "mintcitizens",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "amount",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "mintmats",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "mat",
+                    "type": "string"
+                },
+                {
+                    "name": "amount",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "ninjas_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "last_search",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "race",
+                    "type": "string"
+                },
+                {
+                    "name": "delay_seconds",
+                    "type": "uint32"
+                },
+                {
+                    "name": "status",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "pair_int",
+            "base": "",
+            "fields": [
+                {
+                    "name": "maxProfessions",
+                    "type": "pair_string_uint64[]"
+                },
+                {
+                    "name": "maxNinja",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "pair_int_vecasset",
+            "base": "",
+            "fields": [
+                {
+                    "name": "template_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "delay",
+                    "type": "uint32"
+                },
+                {
+                    "name": "ingredients",
+                    "type": "asset[]"
+                }
+            ]
+        },
+        {
+            "name": "pair_string_float32",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "float32"
+                }
+            ]
+        },
+        {
+            "name": "pair_string_string",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "pair_string_uint64",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "pair_string_vecstring",
+            "base": "",
+            "fields": [
+                {
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "name": "values",
+                    "type": "string[]"
+                }
+            ]
+        },
+        {
+            "name": "profession_blend",
+            "base": "",
+            "fields": [
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "profession",
+                    "type": "string"
+                },
+                {
+                    "name": "template_id",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "professions_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "last_material_search",
+                    "type": "time_point_sec"
+                },
+                {
+                    "name": "uses_left",
+                    "type": "uint64"
+                },
+                {
+                    "name": "items",
+                    "type": "uint64[]"
+                },
+                {
+                    "name": "status",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "receiverand",
+            "base": "",
+            "fields": [
+                {
+                    "name": "assoc_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "random_value",
+                    "type": "checksum256"
+                }
+            ]
+        },
+        {
+            "name": "refinemat",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "professID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "registernfts",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_ids",
+                    "type": "uint64[]"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "removeall",
+            "base": "",
+            "fields": [
+                {
+                    "name": "table",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "resetuser",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "searchforcz",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "assetID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "setconfig",
+            "base": "",
+            "fields": [
+                {
+                    "name": "race_chance_values",
+                    "type": "pair_string_float32[]"
+                },
+                {
+                    "name": "race_delay_values",
+                    "type": "pair_string_float32[]"
+                },
+                {
+                    "name": "rawmat_chances",
+                    "type": "pair_string_float32[]"
+                },
+                {
+                    "name": "rawmat_rarities",
+                    "type": "pair_string_vecstring[]"
+                },
+                {
+                    "name": "rawmat_refined",
+                    "type": "pair_string_string[]"
+                },
+                {
+                    "name": "item_combo",
+                    "type": "pair_int_vecasset[]"
+                },
+                {
+                    "name": "profession_mats",
+                    "type": "pair_string_vecstring[]"
+                },
+                {
+                    "name": "template_ids",
+                    "type": "pair_string_uint64[]"
+                },
+                {
+                    "name": "profession_combo",
+                    "type": "profession_blend[]"
+                }
+            ]
+        },
+        {
+            "name": "settlements_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_id",
+                    "type": "uint64"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "startcraft",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "assetID",
+                    "type": "uint64"
+                },
+                {
+                    "name": "mat",
+                    "type": "string"
+                },
+                {
+                    "name": "refining",
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "name": "startsearch",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "assetID",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "unbindnfts",
+            "base": "",
+            "fields": [
+                {
+                    "name": "asset_ids",
+                    "type": "uint64[]"
+                },
+                {
+                    "name": "owner",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "unequipitems",
+            "base": "",
+            "fields": [
+                {
+                    "name": "item_ids",
+                    "type": "uint64[]"
+                }
+            ]
+        },
+        {
+            "name": "user_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "citizen_count",
+                    "type": "int32"
+                },
+                {
+                    "name": "nft_counts",
+                    "type": "pair_int"
+                },
+                {
+                    "name": "mat_inventory",
+                    "type": "asset[]"
+                }
+            ]
+        },
+        {
+            "name": "withdrawnfts",
+            "base": "",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name"
+                },
+                {
+                    "name": "asset_ids",
+                    "type": "uint64[]"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "burnrng",
+            "type": "burnrng",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "craftitem",
+            "type": "craftitem",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "equipitems",
+            "type": "equipitems",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "fillmat",
+            "type": "fillmat",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "findmat",
+            "type": "findmat",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "logmine",
+            "type": "logmine",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "logsearch",
+            "type": "logsearch",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "mintcitizens",
+            "type": "mintcitizens",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "mintmats",
+            "type": "mintmats",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "receiverand",
+            "type": "receiverand",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "refinemat",
+            "type": "refinemat",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "registernfts",
+            "type": "registernfts",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "removeall",
+            "type": "removeall",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "resetuser",
+            "type": "resetuser",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "searchforcz",
+            "type": "searchforcz",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setconfig",
+            "type": "setconfig",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "startcraft",
+            "type": "startcraft",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "startsearch",
+            "type": "startsearch",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "unbindnfts",
+            "type": "unbindnfts",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "unequipitems",
+            "type": "unequipitems",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdrawnfts",
+            "type": "withdrawnfts",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "configs",
+            "type": "config_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "items",
+            "type": "items_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "ninjas",
+            "type": "ninjas_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "professions",
+            "type": "professions_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "settlements",
+            "type": "settlements_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "user",
+            "type": "user_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

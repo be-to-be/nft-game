@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+8b41f3a7f93d29c63ee3405c9dae3c52 CMakeFiles/waxel_project
+23eda678a88d63675e3e60bf8d936161 CMakeFiles/waxel_project-complete
+ead6d9a6596873847228cf9e217142a9 waxel_project-prefix/src/waxel_project-stamp/waxel_project-build
+e5edff415cf257157e2ab6a455e165c1 waxel_project-prefix/src/waxel_project-stamp/waxel_project-configure
+0540e242a3e033471fc3302d81b34cce waxel_project-prefix/src/waxel_project-stamp/waxel_project-download
+ad543ae8fc8a526a95aaddfc16fdadf6 waxel_project-prefix/src/waxel_project-stamp/waxel_project-install
+4b505d7974049852538d389625c8905d waxel_project-prefix/src/waxel_project-stamp/waxel_project-mkdir
+42da3c3ebe891908f5f40c9301360f2e waxel_project-prefix/src/waxel_project-stamp/waxel_project-patch
+61100c357094944f694ee5b478580bbe waxel_project-prefix/src/waxel_project-stamp/waxel_project-test
+ebd62640ccd650d9656b99eee00662de waxel_project-prefix/src/waxel_project-stamp/waxel_project-update

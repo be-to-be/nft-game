@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/wax/Contractz/waxel/build/CMakeFiles/waxel_project"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/CMakeFiles/waxel_project.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/CMakeFiles/waxel_project-complete.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-install.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-mkdir.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-download.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-update.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-patch.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-configure.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-build.rule"
+		},
+		{
+			"file" : "/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"waxel_project"
+		],
+		"name" : "waxel_project"
+	}
+}

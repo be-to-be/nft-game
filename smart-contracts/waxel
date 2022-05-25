@@ -1,0 +1,116 @@
+{"msg": "succeeded", "keys": {"active_key": {"public": "EOS6XcruFSpWA7Yc32hrA3gj5SrxH66nFJdj1pGKT2kPhuDrvTxL9",
+ "private": "5KfKXTRY2NA1aDks27Z7asWrREVnaGeoKirqWkEig6W3U2LqvXu"},
+ "owner_key": {"public": "EOS81paxo4oZih1KGsVB89B3iNpQtRBb5wEmycs7Pu3rwjEyVU3rd", 
+ "private": "5JSXJ66aYvUv14Z6ckiHJ45XknNKvmC2PgYXqj1KWuHArhNmDyH"}},
+  "account": "waxelnftgame"}
+
+
+cleos wallet create -n waxelg --to-console &&
+cleos wallet import -n waxelg --private-key 5JSXJ66aYvUv14Z6ckiHJ45XknNKvmC2PgYXqj1KWuHArhNmDyH &&
+cleos wallet import -n waxelg --private-key 5KfKXTRY2NA1aDks27Z7asWrREVnaGeoKirqWkEig6W3U2LqvXu
+
+cleos wallet open -n waxelg &&
+cleos wallet unlock -n waxelg --password PW5KjtHq5sFyjc4vVg5U3tiAGwtyaeAR2QXM1nzMGSDXRgpdgsrfa
+
+captxak = PW5JBr8LZnNA3oXt8ZZJZq5YPjp5nukZVW64t9AGgJVCVmSw8cJqc
+
+
+cleos -u https://testnet.waxsweden.org set contract waxelworld11 waxel waxel.wasm waxel.abi
+
+cleos -u https://testnet.waxsweden.org system buyram waxelworld11 waxelworld11 "400.00000000 WAX"
+cleos -u https://testnet.waxsweden.org set account permission waxelworld11 active --add-code
+
+ "keys": {"active_key": {"public": "EOS81wrWWxSx4Z8616u3biQN9fKcsc6RthGVkSwX1b7qNgdp7LaiN", "private": "5Ji8E8WwRw8i2qFfp719X3eoHMSKD3JouthjRpQHz7iT1a16g6v"},
+  "owner_key": {"public": "EOS63asLzueoa1FmVNuBGfEjNDVZiiTNe7BPQJsxaF7jAyGSeQtCv", "private": "5KYx7sBXAmchm9qWrTbb8aaAXY6gPah4CPRyTmKx6k5m2aj442N"}}, "account": "waxelgametst"}
+  msg	"succeeded"
+  keys	
+  active_key	
+  public	"EOS7zGEnZsXwehNPHUvnXHECZcChANbJG7gEh2tm3TET86AoByDXJ"
+  private	"5Jj2jBjWNn42MKz7myGoxp51R8R28pNdARsBtM75BaS8PCQm7mv"
+  owner_key	
+  public	"EOS6LtGbvANZm8g6EztH7FiFAzwMsM2fA2NkEawvBH7LZm69CMJrv"
+  private	"5Hw3FPPvX3dX6aCi2phZXuFijRHJi7TWi5njuVHhPD25kdUj7V1"
+  account	"waxelworld11"
+
+  cleos wallet create -n waxelak --to-console &&
+  cleos wallet import -n waxelak --private-key 5Jj2jBjWNn42MKz7myGoxp51R8R28pNdARsBtM75BaS8PCQm7mv &&
+  cleos wallet import -n waxelak --private-key 5Hw3FPPvX3dX6aCi2phZXuFijRHJi7TWi5njuVHhPD25kdUj7V1
+  
+  cleos wallet open -n waxelak &&
+  cleos wallet unlock -n waxelak --password PW5JtGHE1vZD443CwQkifcgAepjFMR4sTt3TVAnWHTe2TS9WPe7dP
+   PW5KCH8rgwA5TMSoYdrW8ZW9r7WeWcJrsZR5DbaqbjS9ox68yW7wN
+
+
+[ { "key": "Human", "value": "85.00" }, { "key": "Orc", "value": "87.00" }, { "key": "Undead", "value": "89.00" }, { "key": "Elf", "value": "92.00" } ,{ "key": "Demon", "value": "95.00" }]
+
+[ { "key": "Human", "value": "30.00" }, { "key": "Orc", "value": "25.00" }, { "key": "Undead", "value": "20.00" }, { "key": "Elf", "value": "15.00" } ,{ "key": "Demon", "value": "10.00" }]
+
+[ { "key": "Common", "value": "80.00" }, { "key": "Uncommon", "value": "17.00" }, { "key": "Rare", "value": "3.00" }]
+
+[ { "key": "Common", "values": ["CO","BIRCH","COTTON"] },
+ { "key": "Uncommon", "values": ["TO","OAK","FLAX"] }, 
+ { "key": "Rare", "values": ["IO","TEAK","SWORMS"]}]
+
+
+
+[ { "key": "Miner", "values": ["CO","TO","IO"] },
+ { "key": "Lumberjack", "values": ["BIRCH","OAK","TEAK"] }, 
+ { "key": "Farmer", "values": ["COTTON","FLAX","SWORMS"]}]
+
+[ { "key": "CO", "value": "CB" },{ "key": "BIRCH", "value": "BWOOD" },{ "key": "COTTON", "value": "WOOL" },
+{ "key": "TO", "value": "TBAR" },{ "key": "OAK", "value": "OWOOD" },{ "key": "FLAX", "value": "LINEN" },
+{ "key": "IO", "value": "IBAR" },{ "key": "TEAK", "value": "TWOOD" },{ "key": "SWORMS", "value": "SILK" } ]
+
+[ { "key": "Citizen10X", "value": "263183" }, { "key": "Miner", "value": "274489" }, { "key": "Lumberjack", "value": "274490" }, 
+  { "key": "Farmer", "value": "274491" }, { "key": "Blacksmith", "value": "274492" }, { "key": "Tailor", "value": "274493" }, 
+  { "key": "Carpenter", "value": "274494" }, { "key": "Engineer", "value": "274495" }
+  , { "key": "CO", "value": "266573" }, { "key": "BIRCH", "value": "266574" }, { "key": "COTTON", "value": "266575" }, { "key": "TO", "value": "266576" }
+  , { "key": "OAK", "value": "266577" }, { "key": "FLAX", "value": "266579" }, { "key": "IO", "value": "266580" }, { "key": "TEAK", "value": "266581" }
+  , { "key": "SWORMS", "value": "266582" }, { "key": "CB", "value": "266583" }, { "key": "BWOOD", "value": "266584" }, { "key": "WOOL", "value": "266585" }
+  , { "key": "TBAR", "value": "266586" }, { "key": "OWOOD", "value": "266587" }, { "key": "LINEN", "value": "266588" }, { "key": "IBAR", "value": "266589" }
+  , { "key": "TWOOD", "value": "266590" }, { "key": "SILK", "value": "266592" }
+]
+
+[ { "type": "Gatherer", "profession": "Miner", "template_id": "274567" }, { "type": "Gatherer", "profession": "Lumberjack", "template_id": "274569" }, { "type": "Gatherer", "profession": "Farmer", "template_id": "274570" }, { "type": "Refiner and crafter", "profession": "Blacksmith", "template_id": "274571" }, { "type": "Refiner and crafter", "profession": "Tailor", "template_id": "274574" }, { "type": "Refiner and crafter", "profession": "Carpenter", "template_id": "274573" }, { "type": "Refiner and crafter", "profession": "Engineer", "template_id": "274575" } ] 
+
+
+
+[ { "template_id": "274497","type":"Luck", "ingredients": ["1.00 CB","1.00 BWOOD","1.00 WOOL"] }, 
+ { "template_id": "274498", "type":"Luck","ingredients": ["1.00 CB","1.00 BWOOD","1.00 WOOL"] }, 
+ { "template_id": "274499", "type":"Luck","ingredients": ["1.00 CB","1.00 BWOOD","1.00 WOOL"] }, 
+
+ { "template_id": "274507", "type":"Double","ingredients": ["2.00 CB","2.00 BWOOD","1.00 WOOL"] }, 
+ { "template_id": "274508", "type":"Double","ingredients": ["2.00 CB","2.00 BWOOD","1.00 WOOL"] }, 
+ { "template_id": "274525","type":"Double", "ingredients": ["2.00 CB","2.00 BWOOD","1.00 WOOL"] }, 
+
+ { "template_id": "274516", "type":"Extra","ingredients": ["2.00 CB","4.00 BWOOD","2.00 WOOL"] }, 
+ { "template_id": "279139","type":"Extra", "ingredients": ["2.00 CB","4.00 BWOOD","2.00 WOOL"] }, 
+ { "template_id": "274518", "type":"Extra","ingredients": ["2.00 CB","4.00 BWOOD","2.00 WOOL"] }, 
+
+ { "template_id": "274500", "type":"Luck","ingredients": ["1.00 TBAR","1.00 OWOOD","1.00 LINEN"] },
+ { "template_id": "274501", "type":"Luck","ingredients": ["1.00 TBAR","1.00 OWOOD","1.00 LINEN"] }, 
+ { "template_id": "274503", "type":"Luck","ingredients": ["1.00 TBAR","1.00 OWOOD","1.00 LINEN"] }, 
+
+ { "template_id": "274510","type":"Double", "ingredients": ["2.00 TBAR","2.00 OWOOD","1.00 LINEN"] },
+ { "template_id": "274511","type":"Double", "ingredients": ["2.00 TBAR","2.00 OWOOD","1.00 LINEN"] },
+ { "template_id": "274512", "type":"Double","ingredients": ["2.00 TBAR","2.00 OWOOD","1.00 LINEN"] },
+ 
+{ "template_id": "274519","type":"Extra", "ingredients": ["2.00 TBAR","4.00 OWOOD","2.00 LINEN"] },
+ { "template_id": "279137","type":"Extra", "ingredients": ["2.00 TBAR","4.00 OWOOD","2.00 LINEN"] },
+ { "template_id": "274521", "type":"Extra","ingredients": ["2.00 TBAR","4.00 OWOOD","2.00 LINEN"] },
+
+ { "template_id": "274504","type":"Luck", "ingredients": ["1.00 IBAR","1.00 TWOOD","1.00 SILK"] },
+ { "template_id": "274505","type":"Luck", "ingredients": ["1.00 IBAR","1.00 TWOOD","1.00 SILK"] },
+ { "template_id": "274506","type":"Luck", "ingredients": ["1.00 IBAR","1.00 TWOOD","1.00 SILK"] },
+
+ { "template_id": "274513","type":"Double", "ingredients": ["2.00 IBAR","2.00 TWOOD","1.00 SILK"] },
+ { "template_id": "274514","type":"Double", "ingredients": ["2.00 IBAR","2.00 TWOOD","1.00 SILK"] },
+ { "template_id": "274515","type":"Double", "ingredients": ["2.00 IBAR","2.00 TWOOD","1.00 SILK"] },
+
+ { "template_id": "274522", "type":"Extra","ingredients": ["1.00 IBAR","4.00 TWOOD","2.00 SILK"] },
+ { "template_id": "279138","type":"Extra", "ingredients": ["1.00 IBAR","4.00 TWOOD","2.00 SILK"] },
+ { "template_id": "274524","type":"Extra", "ingredients": ["1.00 IBAR","4.00 TWOOD","2.00 SILK"] }
+]
+
+
+

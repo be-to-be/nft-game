@@ -1,0 +1,14 @@
+# Target labels
+ waxel_project
+# Source files and their labels
+/wax/Contractz/waxel/build/CMakeFiles/waxel_project
+/wax/Contractz/waxel/build/CMakeFiles/waxel_project.rule
+/wax/Contractz/waxel/build/CMakeFiles/waxel_project-complete.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-install.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-mkdir.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-download.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-update.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-patch.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-configure.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-build.rule
+/wax/Contractz/waxel/build/waxel_project-prefix/src/waxel_project-stamp/waxel_project-test.rule
